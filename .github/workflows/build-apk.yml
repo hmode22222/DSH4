@@ -14,13 +14,6 @@ jobs:
       - name: Checkout application
         uses: actions/checkout@v5
 
-      - name: Checkout Termux terminal libraries
-        uses: actions/checkout@v5
-        with:
-          repository: termux/termux-app
-          path: termux-app
-          fetch-depth: 1
-
       - name: Set up JDK
         uses: actions/setup-java@v5
         with:
