@@ -1,0 +1,5 @@
+#!/system/bin/sh
+export HOME=/root
+export PATH=/bin:/usr/bin:/system/bin
+cd /root 2>/dev/null || cd /
+exec /system/bin/sh "$@"

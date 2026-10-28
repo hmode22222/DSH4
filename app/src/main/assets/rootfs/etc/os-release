@@ -1,0 +1,4 @@
+NAME="AndLinux Minimal"
+ID=andlinux
+VERSION_ID="0.1"
+PRETTY_NAME="AndLinux Minimal Rootfs"
